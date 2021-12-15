@@ -1,0 +1,85 @@
+
+@import "colores";
+@import "medidas";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to top, #3a3838 0%, #777575 100%);
+}
+h1{
+    font-family: 'Comforter Brush', cursive;
+    text-align: center;
+    margin: 10px;
+    font-size: 70px;
+    color: rgb(102, 0, 0);
+    
+}
+p {
+    color: azure;
+}
+
+
+
+/*animaciones*/
+h1 {
+    animation-duration: 4s;
+    animation-name: aparecer;
+ }
+ 
+ 
+ @keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translate(-500px);
+    }
+    to {
+      opacity: 1;
+    }
+ }
+
+
+
+
+/*asignado a pagina de historia*/
+/*operacion*/
+.div_uno {
+    width: $ancho;
+    .article_uno {
+        width: $ancho / 2;
+        .p_uno {
+            width: $ancho / 4;
+            color: $rojo;
+        }
+    }
+}
+
+/*condicionales*/
+
+.div_dos {
+    @if $ancho == $mobile {
+    color:$azul;
+  } @else if $ancho == $tablet {
+    color: $rojo;
+  } @else if $ancho == $desktop {
+    color: $verde;
+  }
+  @else {
+    color: $negro;
+  }
+  }
+
+
+/*BUCLES*/
+
+@for $titulo from 2 to 4 {
+    h#{$titulo} {
+        font-style: italic;
+        font-size: 2.5rem / $titulo;
+        text-align: center;
+        color: $azul;
+    }
+}

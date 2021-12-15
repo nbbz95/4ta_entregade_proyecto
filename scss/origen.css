@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#3a3838), to(#777575));
+  background-image: linear-gradient(to top, #3a3838 0%, #777575 100%);
+}
+
+h1 {
+  font-family: 'Comforter Brush', cursive;
+  text-align: center;
+  margin: 10px;
+  font-size: 70px;
+  color: #660000;
+}
+
+p {
+  color: azure;
+}
+
+/*animaciones*/
+h1 {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-500px);
+            transform: translate(-500px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-500px);
+            transform: translate(-500px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*asignado a pagina de historia*/
+/*operacion*/
+.div_uno {
+  width: 100vh;
+}
+
+.div_uno .article_uno {
+  width: 50vh;
+}
+
+.div_uno .article_uno .p_uno {
+  width: 25vh;
+  color: #af1c1c;
+}
+
+/*condicionales*/
+.div_dos {
+  color: black;
+}
+
+/*BUCLES*/
+h2 {
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #4526f7;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 0.83333rem;
+  text-align: center;
+  color: #4526f7;
+}
+/*# sourceMappingURL=origen.css.map */
