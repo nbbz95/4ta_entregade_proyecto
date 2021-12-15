@@ -7,8 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 body {
-    background-image: linear-gradient(to top, #3a3838 0%, #777575 100%);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    
 }
 h1{
     font-family: 'Comforter Brush', cursive;
@@ -19,7 +22,7 @@ h1{
     
 }
 p {
-    color: azure;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -41,20 +44,14 @@ h1 {
     }
  }
 
+.body_historia {
+  height: auto;
 
 
 
-/*asignado a pagina de historia*/
-/*operacion*/
+}
 .div_uno {
-    width: $ancho;
-    .article_uno {
-        width: $ancho / 2;
-        .p_uno {
-            width: $ancho / 4;
-            color: $rojo;
-        }
-    }
+
 }
 
 /*condicionales*/
