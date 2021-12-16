@@ -6,8 +6,8 @@
 }
 
 body {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#3a3838), to(#777575));
-  background-image: linear-gradient(to top, #3a3838 0%, #777575 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-  color: azure;
+  color: black;
 }
 
 /*animaciones*/
@@ -52,19 +52,8 @@ h1 {
   }
 }
 
-/*asignado a pagina de historia*/
-/*operacion*/
-.div_uno {
-  width: 100vh;
-}
-
-.div_uno .article_uno {
-  width: 50vh;
-}
-
-.div_uno .article_uno .p_uno {
-  width: 25vh;
-  color: #af1c1c;
+.body_historia {
+  height: auto;
 }
 
 /*condicionales*/
@@ -86,4 +75,11 @@ h3 {
   text-align: center;
   color: #4526f7;
 }
+
+.imagen_container {
+  width: 1500px;
+  margin-left: 500px;
+}
+
+
 /*# sourceMappingURL=origen.css.map */
